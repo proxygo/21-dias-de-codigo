@@ -1,0 +1,67 @@
+body {
+    margin: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+h3 {
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    
+    top: -100px;
+}
+.card-back {
+    width: 215px;
+    height: 145px;
+    background-color: pink;
+    border-radius: 5%;
+   }
+
+ .pag1 {
+    position: absolute;
+    width: 118px;
+    height: 120px;
+    top: -110px;
+    left: 90px;
+    background-color: cornsilk;
+    }
+  .pag2 {
+        position: relative;
+        width: 0px;
+        height: 0;
+        top: 10px;
+        left: 90px;
+        border: 60px solid;
+        border-color: rgb(248, 241, 216);
+  }
+  
+  .card {
+    width: 200px;
+    height: 100px;
+  
+  }
+  
+  .pag1:after {
+    left: 0;
+    
+  -webkit-transform-origin: 100% 100%;
+     -moz-transform-origin: 100% 100%;
+      -ms-transform-origin: 100% 100%;
+       -o-transform-origin: 100% 100%;
+          transform-origin: 100% 100%;
+  }
+  
+  .card {
+    animation: flip-page 2s 1s cubic-bezier(1,0,1,1) 1 forwards;  
+  }
+  
+  @keyframes flip-page {
+    from {
+      transform-style: preserve-3d;
+    }
+    to {
+      transform: rotateY(150deg);
+    }
+  }
