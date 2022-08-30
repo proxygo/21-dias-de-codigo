@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #2a2356;
+}
+
+input{
+    color: #e0d9f6;
+    padding: 17px;
+    outline: none;
+    font-size: 30px;
+    font-family:'Silkscreen', cursive;
+    border-radius: 25%;
+}
+.num{
+    width: 64px;
+    height: 67px;
+}
+
+.text{
+    width: 160px;
+    height: 26px;
+    border-radius: 22px;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.text1{
+    width: 24px;
+    height: 26px;
+    border-radius: 50%;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+.main{
+    display: inline-block;
+
+}
+
+.maincolor{
+    background: rgb(110,203,245);
+    background: linear-gradient(133deg, rgba(110,203,245,1) 0%, rgba(88,106,226,1) 35%, rgba(194,82,225,1) 100%);;
+}
+
+.blue{
+    background: rgb(110,203,245);
+    background: linear-gradient(133deg, rgba(110,203,245,1) 0%, rgba(88,106,226,1) 35%, rgba(194,82,225,1) 100%);}
+
+.pin{
+    background: rgb(110,203,245);
+    background: linear-gradient(133deg, rgba(110,203,245,1) 0%, rgba(88,106,226,1) 35%, rgba(194,82,225,1) 100%);}
+
+.gre{
+    background: rgb(110,203,245);
+    background: linear-gradient(133deg, rgba(110,203,245,1) 0%, rgba(88,106,226,1) 35%, rgba(194,82,225,1) 100%);}
+
+.pur{
+    background: rgb(110,203,245);
+    background: linear-gradient(133deg, rgba(110,203,245,1) 0%, rgba(88,106,226,1) 35%, rgba(194,82,225,1) 100%);}
+
+.ora{
+    background: rgb(110,203,245);
+    background: linear-gradient(133deg, rgba(110,203,245,1) 0%, rgba(88,106,226,1) 35%, rgba(194,82,225,1) 100%);
+}
