@@ -4,24 +4,24 @@ body{
 }
 header h1 {
     position: absolute;
-    left: 70%;
-    top: 22%;
+    left: 57%;
+    top: 15%;
     color: white;
 }
 
 h2{
     position: absolute;
-    left: 68%;
-    top: 26%;
+    left: 56%;
+    top: 20%;
     color: white;
     transform: rotate(27deg);
 }
 
 img{
-    position: relative;
+    position: absolute;
     z-index: 1;
-    margin: 15%;
-    left: 47%;
+    left: 50%;
+    top: 26%;
 }
 
 .cabeca {
@@ -62,47 +62,47 @@ img{
     width: 50%;
     height: 60%;
     border-radius: 90%;
-    left: 55%;
+    left: 53%;
     top: 53%;
     background: transparent;
     box-shadow: 10px 100px 0 0;
     color: white;
-    transform: rotate(-30deg);
+    transform: rotate(-45deg);
 }
 .corpo2{
     position: absolute;
     width: 30%;
     height: 40%;
     border-radius: 70%;
-    left: 89%;
-    top: 108%;
+    left: 94%;
+    top: 105%;
     background: transparent;
     box-shadow: 5px 80px 0 0;
     color: white;
-    transform: rotate(-50deg);
+    transform: rotate(-10deg);
     transform: scale(-1);
 }
 
 .calda{
     position: absolute;
     width: 20%;
-    height: 40%;
-    border-radius: 900%;
-    left: 80%;
-    top: 60.9%;
+    height: 60%;
+    border-radius: 80%;
+    left: 83%;
+    top: 45%;
     background: transparent;
-    box-shadow: 30px 100px 0 0;
+    box-shadow: 20px 90px 0 0;
     color: white;
-    transform: rotate(35deg);
+    transform: rotate(40deg);
 }
 
 .linha {
     position: absolute;
-    width: 60%;
+    width: 70%;
     height: 60%;
     border-radius: 50%;
     left: 18%;
-    top: 43%;
+    top: 45%;
     background: transparent;
     border: 6px solid;
     border-color: var(--pink) transparent transparent transparent;
@@ -110,22 +110,40 @@ img{
 }
 .linha2 {
     position: absolute;
-    width: 14%;
+    width: 16%;
     height: 5%;
     border-radius: 50%;
-    left: 53%;
-    top: 40%;
+    left: 58%;
+    top: 41%;
     background: transparent;
     border: 6px solid;
     border-color: var(--pink) transparent transparent transparent;
-    transform: rotate(-45deg);
+    transform: rotate(-48deg);
+}
+
+.olho {
+    position: absolute;
+    width: 10%;
+    height: 5%;
+    border-radius: 50%;
+    left: 50%;
+    top: 85%;
+    background: transparent;
+    border: 6px solid;
+    border-color: rgb(113, 227, 214) transparent transparent transparent;
+    transform: rotate(185deg);
 }
 
 :root {
   --pink: #efbbcf;
 }
 
+.container-nuvem {
+    position: relative;
+    width: 1000px;
+    height: 588px;
 
+}
 
 
 
