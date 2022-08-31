@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap");
+body{
+    background: rgb(113, 227, 214);
+}
+header h1 {
+    position: absolute;
+    left: 70%;
+    top: 22%;
+    color: white;
+}
+
+h2{
+    position: absolute;
+    left: 68%;
+    top: 26%;
+    color: white;
+    transform: rotate(27deg);
+}
+
+img{
+    position: relative;
+    z-index: 1;
+    margin: 15%;
+    left: 47%;
+}
+
+.cabeca {
+    border-radius: 36% 64% 12% 88% / 50% 45% 55% 50%;
+    position: absolute;
+    width: 50%;
+    height: 80%;
+    left: 30%;
+    top: 50%;
+    background: white;
+}
+.cabeca2 {
+    border-radius: 78% 61% 5% 80% / 100% 69% 78% 50%;
+    position: absolute;
+    width: 42%;
+    height: 65%;
+    left: 38%;
+    top: 53%;
+    background: white;
+    transform: rotate(15deg);
+}
+.sorriso{
+    position: absolute;
+    width: 30%;
+    height: 10%;
+    border-radius: 70%;
+    left: 30%;
+    right: 20%;
+    top: 100%;
+    background: transparent;
+    box-shadow: 10px 10px 0 0;
+    color: rgb(113, 227, 214);
+    transform: rotate(15deg);
+}
+
+.corpo{
+    position: absolute;
+    width: 50%;
+    height: 60%;
+    border-radius: 90%;
+    left: 55%;
+    top: 53%;
+    background: transparent;
+    box-shadow: 10px 100px 0 0;
+    color: white;
+    transform: rotate(-30deg);
+}
+.corpo2{
+    position: absolute;
+    width: 30%;
+    height: 40%;
+    border-radius: 70%;
+    left: 89%;
+    top: 108%;
+    background: transparent;
+    box-shadow: 5px 80px 0 0;
+    color: white;
+    transform: rotate(-50deg);
+    transform: scale(-1);
+}
+
+.calda{
+    position: absolute;
+    width: 20%;
+    height: 40%;
+    border-radius: 900%;
+    left: 80%;
+    top: 60.9%;
+    background: transparent;
+    box-shadow: 30px 100px 0 0;
+    color: white;
+    transform: rotate(35deg);
+}
+
+.linha {
+    position: absolute;
+    width: 60%;
+    height: 60%;
+    border-radius: 50%;
+    left: 18%;
+    top: 43%;
+    background: transparent;
+    border: 6px solid;
+    border-color: var(--pink) transparent transparent transparent;
+    transform: rotate(105deg);
+}
+.linha2 {
+    position: absolute;
+    width: 14%;
+    height: 5%;
+    border-radius: 50%;
+    left: 53%;
+    top: 40%;
+    background: transparent;
+    border: 6px solid;
+    border-color: var(--pink) transparent transparent transparent;
+    transform: rotate(-45deg);
+}
+
+:root {
+  --pink: #efbbcf;
+}
+
+
+
+
+
+
+
+
+
